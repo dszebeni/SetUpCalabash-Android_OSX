@@ -67,3 +67,20 @@ $ calabash-android run <apk path>
 >$ calabash-android resign <apk path>
 >```
 
+
+##Console
+
+You can use 'calabash-android console' to write queries and find the app elements
+
+```
+$ calabash-android console <apk path>
+```
+```
+start_test_server_in_background
+```
+Query to list everything:
+
+```
+query ("*")
+```
+
